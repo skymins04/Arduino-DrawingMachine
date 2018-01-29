@@ -1,11 +1,11 @@
 2017-12-17-SUN
-# SoftIce µ¿¾Æ¸® ¿¬¸» °úÁ¦ - Arduino-DrawingMachine
+# SoftIce ë™ì•„ë¦¬ ì—°ë§ ê³¼ì œ - Arduino-DrawingMachine
 
-¾ÆµÎÀÌ³ë¸¦ ÀÌ¿ëÇÑ ±âÇÐÇÐÀû ¹«´Ì Ãâ·Â ÀåÄ¡
-Á¦ÀÛÀÚ: 10201 °­¹Î¼ö (BetaMan)
-Á¦ÀÛ±â°£: 2017-12-04-MON ~ 2017-12-17_SUN
+ì•„ë‘ì´ë…¸ë¥¼ ì´ìš©í•œ ê¸°í•™í•™ì  ë¬´ëŠ¬ ì¶œë ¥ ìž¥ì¹˜
+ì œìž‘ìž: 10201 ê°•ë¯¼ìˆ˜ (BetaMan)
+ì œìž‘ê¸°ê°„: 2017-12-04-MON ~ 2017-12-17_SUN
 
-ÀÛÇ° ±¸¼º ¸ðµâ: -stepping motor (28BYJ-48)x 3
+ìž‘í’ˆ êµ¬ì„± ëª¨ë“ˆ: -stepping motor (28BYJ-48)x 3
 `               -stepping motor driver (ULN2003APG) x 3
                 -16by2 LCD add I2C module x 1
                 -rotary Encoder x 1 
@@ -16,13 +16,13 @@
                 -Dupont cable for wiring
 		-Jumper Wire for wiring
 
-¾ÆµÎÀÌ³ë ÇÉ¿¬°á:
-                ¿ÞÂÊ ¸ðÅÍÀÇ µå¶óÀÌ¹ö: IN1 - 2, IN2 - 3, IN3 - 4, IN4 - 5 
-                ¿À¸¥ÂÊ ¸ðÅÍÀÇ µå¶óÀÌ¹ö: IN1 - 6, IN2 - 7, IN3 - 8, IN4 - 9 
-                ÅÏ Å×ÀÌºí ¸ðÅÍÀÇ µå¶óÀÌ¹ö: IN1 - 10, IN2 - 11, IN3 - 12, IN4 - 13 
+ì•„ë‘ì´ë…¸ í•€ì—°ê²°:
+                ì™¼ìª½ ëª¨í„°ì˜ ë“œë¼ì´ë²„: IN1 - 2, IN2 - 3, IN3 - 4, IN4 - 5 
+                ì˜¤ë¥¸ìª½ ëª¨í„°ì˜ ë“œë¼ì´ë²„: IN1 - 6, IN2 - 7, IN3 - 8, IN4 - 9 
+                í„´ í…Œì´ë¸” ëª¨í„°ì˜ ë“œë¼ì´ë²„: IN1 - 10, IN2 - 11, IN3 - 12, IN4 - 13 
                 LCD-I2C: SDA - A4, SCL - A5 
-                ·ÎÅÍ¸®?¿£ÄÚ´õ: CLK - 0, DT - 1, SW - A0
+                ë¡œí„°ë¦¬ ì—”ì½”ë”: CLK - 0, DT - 1, SW - A0
 
-*Serial.end()¸¦ ÀÌ¿ëÇØ µðÁöÅÐ 0, 1¹øÀ» »ç¿ëÇÑ´Ù. (´Ü, ´ç¿¬È÷ SerialÅë½ÅÀº »ç¿ëÇÒ ¼ö ¾ø´Ù)
-*¸ðÅÍ Àü¿ø °ø±Þ:
-                -¾ÆµÎÀÌ³ë DC-IN Æ÷Æ®¿¡ Á¡ÆÛ¿ÍÀÌ¾î¸¦ ³³¶«ÇØ 9v ½ºÅÜ¸ðÅÍ µå¶óÀÌ¹ö¿¡ Àü¿ø°ø±Þ
+*Serial.end()ë¥¼ ì´ìš©í•´ ë””ì§€í„¸ 0, 1ë²ˆì„ ì‚¬ìš©í•œë‹¤. (ë‹¨, ë‹¹ì—°ížˆ Serialí†µì‹ ì€ ì‚¬ìš©í•  ìˆ˜ ì—†ë‹¤)
+*ëª¨í„° ì „ì› ê³µê¸‰:
+ Â  Â  Â  Â  Â  Â  Â   -ì•„ë‘ì´ë…¸ DC-IN í¬íŠ¸ì— ì í¼ì™€ì´ì–´ë¥¼ ë‚©ë•œí•´ ì™¸ë¶€ì „ì›ì„ (ìŠ¤í…ë‹¤ìš´ì»¨ë²„í„°ë¡œ ì „ì•• ë‹¤ìš´) ìŠ¤í…ëª¨í„° ë“œë¼ì´ë²„ì— ì „ì›ê³µê¸‰
