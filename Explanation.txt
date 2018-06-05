@@ -6,7 +6,7 @@
 제작기간: 2017-12-04-MON ~ 2017-12-17_SUN
 
 작품 구성 모듈: -stepping motor (28BYJ-48)x 3
-`               -stepping motor driver (ULN2003APG) x 3
+                -stepping motor driver (ULN2003APG) x 3
                 -16by2 LCD add I2C module x 1
                 -rotary Encoder x 1 
                 -mini breadBoard x 1
@@ -22,5 +22,8 @@
                 턴 테이블 모터의 드라이버: IN1 - 10, IN2 - 11, IN3 - 12, IN4 - 13 
                 LCD-I2C: SDA - A4, SCL - A5 
                 로터리 엔코더: CLK - 0, DT - 1, SW - A0
+
+3D 모델:
+                https://www.thingiverse.com/thing:2719935
 
 *Serial.end()를 이용해 디지털 0, 1번을 사용한다. (단, 당연히 Serial통신은 사용할 수 없다)
